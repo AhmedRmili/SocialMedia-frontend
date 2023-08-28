@@ -1,13 +1,18 @@
 import React from 'react'
-import "./topbar.css";
-import { NotificationsActiveOutlined, Search } from '@mui/icons-material';
-import { Person ,Chat} from '@mui/icons-material';
+import "./topbar.css"
+import Person from '@mui/icons-material/Person';
+import Search from '@mui/icons-material/Search';
+import Chat from '@mui/icons-material/Chat';
 import Notifications from '@mui/icons-material/Notifications';
+
+
+
+
 export default function Topbar() {
   return (
     <div className="topbarContainer">
       <div className="topbarLeft">
-        <span className="logo">Lamasocial</span>
+        <span className="logo">TrendWave</span>
       </div>
       <div className="topbarCenter">
         <div className="searchbar">
